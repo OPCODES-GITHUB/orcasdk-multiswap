@@ -57,6 +57,14 @@ export class OrcaPoolImpl implements OrcaPool {
     return this.poolParams.poolTokenMint;
   }
 
+  public getPoolParams(): OrcaPoolParams {
+    return this.poolParams;
+  }
+
+  public getConnection(): Connection {
+    return this.connection;
+  }
+
   public async getLPBalance(owner: PublicKey): Promise<OrcaU64> {
     const address = await deriveAssociatedTokenAddress(owner, this.poolParams.poolTokenMint);
 
