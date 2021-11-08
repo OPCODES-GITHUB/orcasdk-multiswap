@@ -1,6 +1,6 @@
 {
-  "name": "@orca-so/sdk",
-  "version": "1.1.12",
+  "name": "orcasdk-multiswap",
+  "version": "1.1.13",
   "description": "Typescript SDK for the Orca protocol.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -44,10 +44,6 @@
   "files": [
     "/dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/orca-so/typescript-sdk.git"
-  },
   "keywords": [
     "orca_so",
     "orca",
@@ -57,9 +53,4 @@
     "crypto",
     "dex"
   ],
-  "author": "team@orca.so",
-  "bugs": {
-    "url": "https://github.com/orca-so/typescript-sdk/issues"
-  },
-  "homepage": "https://www.orca.so"
 }
