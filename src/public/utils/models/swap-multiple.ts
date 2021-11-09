@@ -14,7 +14,7 @@ import {
   createApprovalInstruction,
   createSwapInstruction,
 } from "../../../public/utils/web3/instructions/pool-instructions";
-async function swapMultiple(
+export async function swapMultiple(
   owner: Keypair | PublicKey,
   routes: [
     {
